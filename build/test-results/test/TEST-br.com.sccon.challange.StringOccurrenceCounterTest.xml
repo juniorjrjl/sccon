@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.sccon.challange.StringOccurrenceCounterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-08-01T23:21:15" hostname="jose-Inspiron-5590" time="0.232">
+  <properties/>
+  <testcase name="usingNullAndEmptyNames()" classname="br.com.sccon.challange.StringOccurrenceCounterTest" time="0.053"/>
+  <testcase name="usingUniqueElementsTest()" classname="br.com.sccon.challange.StringOccurrenceCounterTest" time="0.168"/>
+  <testcase name="usingUpperCaseNames()" classname="br.com.sccon.challange.StringOccurrenceCounterTest" time="0.004"/>
+  <testcase name="when using list [null] then return empty Map" classname="br.com.sccon.challange.StringOccurrenceCounterTest" time="0.001"/>
+  <testcase name="when using list [[]] then return empty Map" classname="br.com.sccon.challange.StringOccurrenceCounterTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

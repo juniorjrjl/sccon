@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes","url":"allclasses-index.html"},{"p":"br.com.sccon.challange","l":"ComplexNumber"},{"p":"br.com.sccon.challange","l":"StringOccurrenceCounter"}]

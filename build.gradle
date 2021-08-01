@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'jacoco'
+}
+
+group 'br.com.sccon.challange'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+ext{
+    lombokVersion = "1.18.20"
+    junit5version = "5.7.2"
+}
+
+jar{
+    manifest{
+        attributes 'Main-class': 'br.com.sccon.challange.CineSystem'
+    }
+}
+
+dependencies {
+    implementation "org.projectlombok:lombok:${lombokVersion}"
+    implementation 'org.jdbi:jdbi3-core:3.21.0'
+    implementation 'org.postgresql:postgresql:42.2.23.jre7'
+
+    compileOnly 'org.jdbi:jdbi3-core:3.21.0'
+
+    annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+
+    testAnnotationProcessor "org.projectlombok:lombok:${lombokVersion}"
+
+    testImplementation(platform("org.junit:junit-bom:${junit5version}"))
+    testImplementation "org.junit.jupiter:junit-jupiter:${junit5version}"
+    testImplementation 'com.github.javafaker:javafaker:1.0.2'
+    testImplementation 'org.assertj:assertj-guava:3.4.0'
+    testImplementation "org.projectlombok:lombok:${lombokVersion}"
+}
+
+test {
+    useJUnitPlatform()
+}
+
+jacocoTestReport {
+    reports {
+        html
+        xml
+    }
+}

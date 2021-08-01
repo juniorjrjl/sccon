@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="br.com.sccon.challange.ComplexNumberTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2021-08-01T23:21:15" hostname="jose-Inspiron-5590" time="0.198">
+  <properties/>
+  <testcase name="usingNoArgusConstructorTest()" classname="br.com.sccon.challange.ComplexNumberTest" time="0.13"/>
+  <testcase name="sunTwoComplexNumberTest()" classname="br.com.sccon.challange.ComplexNumberTest" time="0.002"/>
+  <testcase name="using a follow number: null real, imaginary 0 throw a Exception" classname="br.com.sccon.challange.ComplexNumberTest" time="0.031"/>
+  <testcase name="using a follow number: 0 real, imaginary null throw a Exception" classname="br.com.sccon.challange.ComplexNumberTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
