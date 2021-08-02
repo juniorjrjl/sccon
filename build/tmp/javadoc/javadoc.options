@@ -1,8 +1,0 @@
--classpath '/home/exacta/projetos_trabalho/sccon/build/classes/java/main:/home/exacta/projetos_trabalho/sccon/build/resources/main:/home/exacta/.gradle/caches/modules-2/files-2.1/org.jdbi/jdbi3-core/3.21.0/c8c3458a32ab1091eb7d79624763d6a7f50264e4/jdbi3-core-3.21.0.jar:/home/exacta/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.20/18bcea7d5df4d49227b4a0743a536208ce4825bb/lombok-1.18.20.jar:/home/exacta/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/42.2.23.jre7/2b9342eb6a3e931994463a21181049f8870fd7ed/postgresql-42.2.23.jre7.jar:/home/exacta/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.9.2/ece33ec76e002dfde574cf7b57451a91a99185c5/antlr4-runtime-4.9.2.jar:/home/exacta/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.30/b5a4b6d16ab13e34a88fae84c35cd5d68cac922c/slf4j-api-1.7.30.jar:/home/exacta/.gradle/caches/modules-2/files-2.1/io.leangen.geantyref/geantyref/1.3.11/bc9c03b53917314d21fe6276aceb08aa84bf80dd/geantyref-1.3.11.jar:/home/exacta/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/3.0.3/987947575eb9af0ad65f70edc36585905175898b/caffeine-3.0.3.jar'
--d '/home/exacta/projetos_trabalho/sccon/build/docs/javadoc'
--doctitle 'sccon 1.0 API'
--notimestamp 
--quiet 
--windowtitle 'sccon 1.0 API'
-'/home/exacta/projetos_trabalho/sccon/src/main/java/br/com/sccon/challange/ComplexNumber.java'
-'/home/exacta/projetos_trabalho/sccon/src/main/java/br/com/sccon/challange/StringOccurrenceCounter.java'

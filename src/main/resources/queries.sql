@@ -4,31 +4,31 @@ select  *
  order by name;
 
 -- Como usuário, quando seleciono uma cidade quero ver a lista de filmes.
-select f.id,
-       f."name",
-       f.duration,
+select m.id,
+       m."name",
+       m.duration,
        s.start_date,
        s.end_date,
        cn."name",
        ct."name"
-  from films f
+  from movies m
  inner join sessions s
-    on f.id = s.film_id
+    on m.id = s.movie_id
  inner join cinemas cn
     on cn.id = s.cinema_id
  inner join cities ct
     on ct.id = cn.city_id
    and ct.id = 1
- order by f."name" ;
+ order by m."name";
 
 -- Como usuário, quando seleciono um filme quero ver a lista de cinemas.
 select cn.id,
        cn."name",
        ct."name"
-  from films f
+  from movies m
  inner join sessions s
-    on f.id = s.film_id
-   and f.id = 1
+    on m.id = s.movie_id
+   and m.id = 1
  inner join cinemas cn
     on cn.id = s.cinema_id
  inner join cities ct
