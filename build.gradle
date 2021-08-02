@@ -15,12 +15,6 @@ ext{
     junit5version = "5.7.2"
 }
 
-jar{
-    manifest{
-        attributes 'Main-class': 'br.com.sccon.challange.CineSystem'
-    }
-}
-
 dependencies {
     implementation "org.projectlombok:lombok:${lombokVersion}"
     implementation 'org.jdbi:jdbi3-core:3.21.0'
