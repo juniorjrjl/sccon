@@ -17,10 +17,6 @@ ext{
 
 dependencies {
     implementation "org.projectlombok:lombok:${lombokVersion}"
-    implementation 'org.jdbi:jdbi3-core:3.21.0'
-    implementation 'org.postgresql:postgresql:42.2.23.jre7'
-
-    compileOnly 'org.jdbi:jdbi3-core:3.21.0'
 
     annotationProcessor "org.projectlombok:lombok:${lombokVersion}"
 
